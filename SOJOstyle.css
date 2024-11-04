@@ -1,0 +1,35 @@
+#one{
+    font-size: small;
+    text-align: center;
+}
+#two{
+    font-size: small;
+    text-align: center;
+}
+#three{
+    font-size: small;
+    text-align: center;
+}
+#four{
+    font-size: small;
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.Photo {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .heading {
+        font-size: 1.5em; /* Reduce heading size for smaller screens */
+    }
+    .Photo {
+        max-width: 100%; /* Ensure the image doesn't overflow smaller screens */
+    }
+}
