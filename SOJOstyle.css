@@ -33,3 +33,14 @@
         max-width: 100%; /* Ensure the image doesn't overflow smaller screens */
     }
 }
+
+body {
+    background: #eee;
+    padding: 1rem;
+    color: #1d1d20;
+    line-height: 1.5em;
+  }
+
+  body p {
+    font-size: 1.2em; /* Adjust this value as needed for your preference */
+}
